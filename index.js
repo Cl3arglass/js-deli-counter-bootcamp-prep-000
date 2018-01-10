@@ -26,7 +26,7 @@ var result = `The line is currently: 1. ${katzDeliLine[0]}`
     return result;
   } else {
     for(var i = 1; i < katzDeliLine.length; i++) {
-      result + `, ${katzDeliLine.indexOf(katzDeliLine[i]) + 1}. {katzDeliLine[i]}`
+      result = result + `, ${katzDeliLine.indexOf(katzDeliLine[i]) + 1}. ${katzDeliLine[i]}`
     }
     return result;
   }
