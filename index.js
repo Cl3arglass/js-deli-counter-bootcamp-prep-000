@@ -9,7 +9,7 @@
 
 function takeANumber(katzDeliLine, newPerson) {
   for (var i = 0; i < newPerson.length; i++) {
-    katzDeliLine.push(newperson[i]);
+    katzDeliLine.push(newPerson[i]);
   }
-  return `Welcome, ${newperson[i]}. You are number ${katzDeliLine.indexof(newperson[i]) + 1} in line.`
+  return `Welcome, ${newPerson[i]}. You are number ${katzDeliLine.indexof(newPerson[i]) + 1} in line.`
 }
