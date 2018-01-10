@@ -8,8 +8,10 @@
 // telling them they are number 6 in line.
 
 function takeANumber(katzDeliLine, newPerson) {
-  for (var i = 0; i < newPerson.length; i++) {
-    katzDeliLine.push(newPerson[i]);
-  }
-  return `Welcome, ${newPerson[i]}. You are number ${katzDeliLine.indexOf(newPerson[i]) + 1} in line.`
+  // for (var i = 0; i < newPerson.length; i++) {
+  //   katzDeliLine.push(newPerson[i]);
+  // }
+  // return `Welcome, ${newPerson[i]}. You are number ${katzDeliLine.indexOf(newPerson[i]) + 1} in line.`
+  katzDeliLine.push(newPerson);
+  return `Welcome, ${newPerson}. You are number ${katzDeliLine.indexOf(newPerson) + 1} in line.`
 }
