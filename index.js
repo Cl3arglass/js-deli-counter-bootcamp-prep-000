@@ -11,5 +11,5 @@ function takeANumber(katzDeliLine, newPerson) {
   for (var i = 0; i < newPerson.length; i++) {
     katzDeliLine.push(newPerson[i]);
   }
-  return `Welcome, ${newPerson[i]}. You are number ${katzDeliLine.indexof(newPerson[i]) + 1} in line.`
+  return `Welcome, ${newPerson[i]}. You are number ${katzDeliLine.indexOf(newPerson[i]) + 1} in line.`
 }
